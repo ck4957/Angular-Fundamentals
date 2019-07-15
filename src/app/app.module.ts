@@ -15,9 +15,9 @@ import {
 } from './events/index';
 
 import { NavBarComponent } from './nav/navbar.component';
-import { JQ_TOKEN, 
-  TOASTR_TOKEN, 
-  Toastr, 
+import { JQ_TOKEN,
+  TOASTR_TOKEN,
+  Toastr,
   CollapsibleWellComponent,
   SimpleModalComponent,
   ModalTriggerDirective
@@ -29,8 +29,8 @@ import { EventsAppComponent } from './events-app.component';
 import { AuthService } from './user/auth.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-let toastr: Toastr = window['toastr'];
-let jQuery = window['$'];
+const toastr: Toastr = window['toastr'];
+const jQuery = window['$'];
 
 @NgModule({
   declarations: [
